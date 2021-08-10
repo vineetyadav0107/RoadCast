@@ -1,0 +1,17 @@
+<h3>
+    GETTING DATE AND TIME FROM JAVASCRIPT ONLY USING NEW DATE()
+</h3>
+
+<h4>Date::  {{ time | date: 'longDate'}}</h4> 
+<h4>Time::  {{ time | date: 'hh:mm:ss a'}}</h4>
+
+<h3>
+    GETTING DATE AND TIME FROM API AFTER SUBSCRIBING THE DATA FROM SERVER
+</h3>
+<P>Because its a 3rd party free api, it may take some time to show the data.........</P>
+<p>I am doing api call in every second to get the latest data</p>
+<h4>Date::  {{api.datetime | date:'longDate'}}</h4>
+<h4>Time::  {{api.datetime | date:'hh:mm:ss a'}}</h4>
+
+
+<p>some times it takes 10-20sec....</p>
